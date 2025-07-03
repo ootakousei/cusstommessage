@@ -1,0 +1,3 @@
+[console_scripts]
+tuner = pid_tuner.tuner:main
+

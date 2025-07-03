@@ -1,0 +1,28 @@
+[ 25%] Built target sub_to_can_node
+[ 50%] Built target can_to_pub_node
+[ 75%] Built target usb_to_pub_node
+[ 87%] [32mBuilding CXX object CMakeFiles/sub_to_usb_node.dir/src/sub_to_usb.cpp.o[0m
+[100%] [32m[1mLinking CXX executable sub_to_usb_node[0m
+[100%] Built target sub_to_usb_node
+-- Install configuration: ""
+-- Up-to-date: /home/roxy/2025_ros2/KanNon0618/install/can_converter/lib/can_converter/sub_to_can_node
+-- Up-to-date: /home/roxy/2025_ros2/KanNon0618/install/can_converter/lib/can_converter/can_to_pub_node
+-- Installing: /home/roxy/2025_ros2/KanNon0618/install/can_converter/lib/can_converter/sub_to_usb_node
+-- Set non-toolchain portion of runtime path of "/home/roxy/2025_ros2/KanNon0618/install/can_converter/lib/can_converter/sub_to_usb_node" to ""
+-- Installing: /home/roxy/2025_ros2/KanNon0618/install/can_converter/lib/can_converter/usb_to_pub_node
+-- Set non-toolchain portion of runtime path of "/home/roxy/2025_ros2/KanNon0618/install/can_converter/lib/can_converter/usb_to_pub_node" to ""
+-- Up-to-date: /home/roxy/2025_ros2/KanNon0618/install/can_converter/share/ament_index/resource_index/package_run_dependencies/can_converter
+-- Up-to-date: /home/roxy/2025_ros2/KanNon0618/install/can_converter/share/ament_index/resource_index/parent_prefix_path/can_converter
+-- Up-to-date: /home/roxy/2025_ros2/KanNon0618/install/can_converter/share/can_converter/environment/ament_prefix_path.sh
+-- Up-to-date: /home/roxy/2025_ros2/KanNon0618/install/can_converter/share/can_converter/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/roxy/2025_ros2/KanNon0618/install/can_converter/share/can_converter/environment/path.sh
+-- Up-to-date: /home/roxy/2025_ros2/KanNon0618/install/can_converter/share/can_converter/environment/path.dsv
+-- Up-to-date: /home/roxy/2025_ros2/KanNon0618/install/can_converter/share/can_converter/local_setup.bash
+-- Up-to-date: /home/roxy/2025_ros2/KanNon0618/install/can_converter/share/can_converter/local_setup.sh
+-- Up-to-date: /home/roxy/2025_ros2/KanNon0618/install/can_converter/share/can_converter/local_setup.zsh
+-- Up-to-date: /home/roxy/2025_ros2/KanNon0618/install/can_converter/share/can_converter/local_setup.dsv
+-- Installing: /home/roxy/2025_ros2/KanNon0618/install/can_converter/share/can_converter/package.dsv
+-- Up-to-date: /home/roxy/2025_ros2/KanNon0618/install/can_converter/share/ament_index/resource_index/packages/can_converter
+-- Up-to-date: /home/roxy/2025_ros2/KanNon0618/install/can_converter/share/can_converter/cmake/can_converterConfig.cmake
+-- Up-to-date: /home/roxy/2025_ros2/KanNon0618/install/can_converter/share/can_converter/cmake/can_converterConfig-version.cmake
+-- Up-to-date: /home/roxy/2025_ros2/KanNon0618/install/can_converter/share/can_converter/package.xml

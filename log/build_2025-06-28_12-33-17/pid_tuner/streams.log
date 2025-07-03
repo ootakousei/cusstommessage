@@ -1,0 +1,21 @@
+[0.617s] Invoking command in '/home/roxy/2025_ros2/KanNon0618/ver0/pid_tuner': CMAKE_PREFIX_PATH=/home/roxy/2025_ros2/KanNon0618/install/can_packet:/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package:/home/roxy/2025_ros2/KanNon0618/install/launcher:/home/roxy/2025_ros2/KanNon0618/install/can_converter PYTHONPATH=/home/roxy/2025_ros2/KanNon0618/build/pid_tuner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roxy/2025_ros2/KanNon0618/install/pid_tuner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pid_tuner build --build-base /home/roxy/2025_ros2/KanNon0618/build/pid_tuner/build install --record /home/roxy/2025_ros2/KanNon0618/build/pid_tuner/install.log --single-version-externally-managed install_data
+[0.855s] running egg_info
+[0.856s] writing ../../build/pid_tuner/pid_tuner.egg-info/PKG-INFO
+[0.856s] writing dependency_links to ../../build/pid_tuner/pid_tuner.egg-info/dependency_links.txt
+[0.856s] writing entry points to ../../build/pid_tuner/pid_tuner.egg-info/entry_points.txt
+[0.856s] writing requirements to ../../build/pid_tuner/pid_tuner.egg-info/requires.txt
+[0.856s] writing top-level names to ../../build/pid_tuner/pid_tuner.egg-info/top_level.txt
+[0.859s] reading manifest file '../../build/pid_tuner/pid_tuner.egg-info/SOURCES.txt'
+[0.860s] writing manifest file '../../build/pid_tuner/pid_tuner.egg-info/SOURCES.txt'
+[0.860s] running build
+[0.860s] running build_py
+[0.861s] running install
+[0.861s] running install_lib
+[0.863s] running install_data
+[0.863s] running install_egg_info
+[0.866s] removing '/home/roxy/2025_ros2/KanNon0618/install/pid_tuner/lib/python3.10/site-packages/pid_tuner-0.0.0-py3.10.egg-info' (and everything under it)
+[0.866s] Copying ../../build/pid_tuner/pid_tuner.egg-info to /home/roxy/2025_ros2/KanNon0618/install/pid_tuner/lib/python3.10/site-packages/pid_tuner-0.0.0-py3.10.egg-info
+[0.867s] running install_scripts
+[0.889s] Installing tuner script to /home/roxy/2025_ros2/KanNon0618/install/pid_tuner/lib/pid_tuner
+[0.889s] writing list of installed files to '/home/roxy/2025_ros2/KanNon0618/build/pid_tuner/install.log'
+[0.914s] Invoked command in '/home/roxy/2025_ros2/KanNon0618/ver0/pid_tuner' returned '0': CMAKE_PREFIX_PATH=/home/roxy/2025_ros2/KanNon0618/install/can_packet:/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package:/home/roxy/2025_ros2/KanNon0618/install/launcher:/home/roxy/2025_ros2/KanNon0618/install/can_converter PYTHONPATH=/home/roxy/2025_ros2/KanNon0618/build/pid_tuner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roxy/2025_ros2/KanNon0618/install/pid_tuner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pid_tuner build --build-base /home/roxy/2025_ros2/KanNon0618/build/pid_tuner/build install --record /home/roxy/2025_ros2/KanNon0618/build/pid_tuner/install.log --single-version-externally-managed install_data

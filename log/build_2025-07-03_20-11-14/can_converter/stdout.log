@@ -1,0 +1,4 @@
+[ 25%] Built target sub_to_can_node
+[ 50%] Built target can_to_pub_node
+[ 62%] [32mBuilding CXX object CMakeFiles/sub_to_usb_node.dir/src/sub_to_usb.cpp.o[0m
+[ 87%] Built target usb_to_pub_node

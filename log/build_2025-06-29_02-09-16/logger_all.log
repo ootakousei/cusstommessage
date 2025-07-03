@@ -1,0 +1,389 @@
+[0.078s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--cmake-args', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON']
+[0.078s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7c2d3c45a170>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7c2d3c5d2e00>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7c2d3c5d2e00>>, mixin_verb=('build',))
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.206s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/roxy/2025_ros2/KanNon0618'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(ver0) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(ver0) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(ver0) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(ver0) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(ver0) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(ver0) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(ver0) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(ver0) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(ver0) by extension 'ros'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(ver0) by extensions ['cmake', 'python']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(ver0) by extension 'cmake'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(ver0) by extension 'python'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(ver0) by extensions ['python_setup_py']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(ver0) by extension 'python_setup_py'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(ver0/can_converter) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(ver0/can_converter) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(ver0/can_converter) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(ver0/can_converter) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(ver0/can_converter) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(ver0/can_converter) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(ver0/can_converter) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(ver0/can_converter) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(ver0/can_converter) by extension 'ros'
+[0.218s] DEBUG:colcon.colcon_core.package_identification:Package 'ver0/can_converter' with type 'ros.ament_cmake' and name 'can_converter'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(ver0/can_packet) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(ver0/can_packet) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(ver0/can_packet) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(ver0/can_packet) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(ver0/can_packet) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(ver0/can_packet) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(ver0/can_packet) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(ver0/can_packet) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(ver0/can_packet) by extension 'ros'
+[0.219s] DEBUG:colcon.colcon_core.package_identification:Package 'ver0/can_packet' with type 'ros.ament_cmake' and name 'can_packet'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(ver0/launcher) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(ver0/launcher) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(ver0/launcher) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(ver0/launcher) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(ver0/launcher) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(ver0/launcher) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(ver0/launcher) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(ver0/launcher) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(ver0/launcher) by extension 'ros'
+[0.219s] DEBUG:colcon.colcon_core.package_identification:Package 'ver0/launcher' with type 'ros.ament_cmake' and name 'launcher'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(ver0/my_cpp_package) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(ver0/my_cpp_package) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(ver0/my_cpp_package) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(ver0/my_cpp_package) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(ver0/my_cpp_package) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(ver0/my_cpp_package) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(ver0/my_cpp_package) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(ver0/my_cpp_package) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(ver0/my_cpp_package) by extension 'ros'
+[0.221s] DEBUG:colcon.colcon_core.package_identification:Package 'ver0/my_cpp_package' with type 'ros.ament_cmake' and name 'my_cpp_package'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(ver0/pid_tuner) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(ver0/pid_tuner) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(ver0/pid_tuner) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(ver0/pid_tuner) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(ver0/pid_tuner) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(ver0/pid_tuner) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(ver0/pid_tuner) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(ver0/pid_tuner) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(ver0/pid_tuner) by extension 'ros'
+[0.222s] DEBUG:colcon.colcon_core.package_identification:Package 'ver0/pid_tuner' with type 'ros.ament_python' and name 'pid_tuner'
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.247s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/roxy/2025_ros2/KanNon0618/install
+[0.247s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'can_packet' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON']'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'can_packet' build argument 'cmake_target' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'can_packet' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'can_packet' build argument 'cmake_clean_cache' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'can_packet' build argument 'cmake_clean_first' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'can_packet' build argument 'cmake_force_configure' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'can_packet' build argument 'ament_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'can_packet' build argument 'catkin_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'can_packet' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.276s] DEBUG:colcon.colcon_core.verb:Building package 'can_packet' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/roxy/2025_ros2/KanNon0618/build/can_packet', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/roxy/2025_ros2/KanNon0618/install/can_packet', 'merge_install': False, 'path': '/home/roxy/2025_ros2/KanNon0618/ver0/can_packet', 'symlink_install': False, 'test_result_base': None}
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'launcher' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON']'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'launcher' build argument 'cmake_target' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'launcher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'launcher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'launcher' build argument 'cmake_clean_first' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'launcher' build argument 'cmake_force_configure' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'launcher' build argument 'ament_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'launcher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'launcher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.276s] DEBUG:colcon.colcon_core.verb:Building package 'launcher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/roxy/2025_ros2/KanNon0618/build/launcher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/roxy/2025_ros2/KanNon0618/install/launcher', 'merge_install': False, 'path': '/home/roxy/2025_ros2/KanNon0618/ver0/launcher', 'symlink_install': False, 'test_result_base': None}
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'can_converter' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON']'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'can_converter' build argument 'cmake_target' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'can_converter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'can_converter' build argument 'cmake_clean_cache' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'can_converter' build argument 'cmake_clean_first' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'can_converter' build argument 'cmake_force_configure' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'can_converter' build argument 'ament_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'can_converter' build argument 'catkin_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'can_converter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.276s] DEBUG:colcon.colcon_core.verb:Building package 'can_converter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/roxy/2025_ros2/KanNon0618/build/can_converter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/roxy/2025_ros2/KanNon0618/install/can_converter', 'merge_install': False, 'path': '/home/roxy/2025_ros2/KanNon0618/ver0/can_converter', 'symlink_install': False, 'test_result_base': None}
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_package' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON']'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_package' build argument 'cmake_target' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_package' build argument 'cmake_clean_cache' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_package' build argument 'cmake_clean_first' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_package' build argument 'cmake_force_configure' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_package' build argument 'ament_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_package' build argument 'catkin_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.277s] DEBUG:colcon.colcon_core.verb:Building package 'my_cpp_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/roxy/2025_ros2/KanNon0618/build/my_cpp_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package', 'merge_install': False, 'path': '/home/roxy/2025_ros2/KanNon0618/ver0/my_cpp_package', 'symlink_install': False, 'test_result_base': None}
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'pid_tuner' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON']'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'pid_tuner' build argument 'cmake_target' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'pid_tuner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'pid_tuner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'pid_tuner' build argument 'cmake_clean_first' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'pid_tuner' build argument 'cmake_force_configure' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'pid_tuner' build argument 'ament_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'pid_tuner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'pid_tuner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.277s] DEBUG:colcon.colcon_core.verb:Building package 'pid_tuner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/roxy/2025_ros2/KanNon0618/build/pid_tuner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/roxy/2025_ros2/KanNon0618/install/pid_tuner', 'merge_install': False, 'path': '/home/roxy/2025_ros2/KanNon0618/ver0/pid_tuner', 'symlink_install': False, 'test_result_base': None}
+[0.277s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.278s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.278s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/roxy/2025_ros2/KanNon0618/ver0/can_packet' with build type 'ament_cmake'
+[0.279s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/roxy/2025_ros2/KanNon0618/ver0/can_packet'
+[0.280s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.280s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.280s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.283s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/roxy/2025_ros2/KanNon0618/ver0/launcher' with build type 'ament_cmake'
+[0.283s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/roxy/2025_ros2/KanNon0618/ver0/launcher'
+[0.283s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.283s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/roxy/2025_ros2/KanNon0618/build/can_packet': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roxy/2025_ros2/KanNon0618/install/pid_tuner:/opt/ros/humble /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --build /home/roxy/2025_ros2/KanNon0618/build/can_packet -- -j16 -l16
+[0.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/roxy/2025_ros2/KanNon0618/build/launcher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roxy/2025_ros2/KanNon0618/install/pid_tuner:/opt/ros/humble /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --build /home/roxy/2025_ros2/KanNon0618/build/launcher -- -j16 -l16
+[0.307s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/roxy/2025_ros2/KanNon0618/build/launcher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roxy/2025_ros2/KanNon0618/install/pid_tuner:/opt/ros/humble /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --build /home/roxy/2025_ros2/KanNon0618/build/launcher -- -j16 -l16
+[0.308s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/roxy/2025_ros2/KanNon0618/build/launcher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roxy/2025_ros2/KanNon0618/install/pid_tuner:/opt/ros/humble /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --install /home/roxy/2025_ros2/KanNon0618/build/launcher
+[0.315s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(launcher)
+[0.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/roxy/2025_ros2/KanNon0618/build/launcher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roxy/2025_ros2/KanNon0618/install/pid_tuner:/opt/ros/humble /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --install /home/roxy/2025_ros2/KanNon0618/build/launcher
+[0.318s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/launcher' for CMake module files
+[0.318s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/launcher' for CMake config files
+[0.318s] Level 1:colcon.colcon_core.shell:create_environment_hook('launcher', 'cmake_prefix_path')
+[0.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roxy/2025_ros2/KanNon0618/install/launcher/share/launcher/hook/cmake_prefix_path.ps1'
+[0.319s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roxy/2025_ros2/KanNon0618/install/launcher/share/launcher/hook/cmake_prefix_path.dsv'
+[0.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roxy/2025_ros2/KanNon0618/install/launcher/share/launcher/hook/cmake_prefix_path.sh'
+[0.321s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/launcher/bin'
+[0.321s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/launcher/lib/pkgconfig/launcher.pc'
+[0.321s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/launcher/lib/python3.10/site-packages'
+[0.322s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/launcher/bin'
+[0.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/roxy/2025_ros2/KanNon0618/install/launcher/share/launcher/package.ps1'
+[0.323s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/roxy/2025_ros2/KanNon0618/install/launcher/share/launcher/package.dsv'
+[0.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/roxy/2025_ros2/KanNon0618/install/launcher/share/launcher/package.sh'
+[0.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/roxy/2025_ros2/KanNon0618/install/launcher/share/launcher/package.bash'
+[0.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/roxy/2025_ros2/KanNon0618/install/launcher/share/launcher/package.zsh'
+[0.326s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/roxy/2025_ros2/KanNon0618/install/launcher/share/colcon-core/packages/launcher)
+[0.327s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(launcher)
+[0.327s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/launcher' for CMake module files
+[0.327s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/launcher' for CMake config files
+[0.327s] Level 1:colcon.colcon_core.shell:create_environment_hook('launcher', 'cmake_prefix_path')
+[0.328s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roxy/2025_ros2/KanNon0618/install/launcher/share/launcher/hook/cmake_prefix_path.ps1'
+[0.328s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roxy/2025_ros2/KanNon0618/install/launcher/share/launcher/hook/cmake_prefix_path.dsv'
+[0.328s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roxy/2025_ros2/KanNon0618/install/launcher/share/launcher/hook/cmake_prefix_path.sh'
+[0.329s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/launcher/bin'
+[0.329s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/launcher/lib/pkgconfig/launcher.pc'
+[0.329s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/launcher/lib/python3.10/site-packages'
+[0.329s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/launcher/bin'
+[0.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/roxy/2025_ros2/KanNon0618/install/launcher/share/launcher/package.ps1'
+[0.330s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/roxy/2025_ros2/KanNon0618/install/launcher/share/launcher/package.dsv'
+[0.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/roxy/2025_ros2/KanNon0618/install/launcher/share/launcher/package.sh'
+[0.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/roxy/2025_ros2/KanNon0618/install/launcher/share/launcher/package.bash'
+[0.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/roxy/2025_ros2/KanNon0618/install/launcher/share/launcher/package.zsh'
+[0.331s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/roxy/2025_ros2/KanNon0618/install/launcher/share/colcon-core/packages/launcher)
+[0.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/roxy/2025_ros2/KanNon0618/build/can_packet' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roxy/2025_ros2/KanNon0618/install/pid_tuner:/opt/ros/humble /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --build /home/roxy/2025_ros2/KanNon0618/build/can_packet -- -j16 -l16
+[0.572s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/roxy/2025_ros2/KanNon0618/build/can_packet': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roxy/2025_ros2/KanNon0618/install/pid_tuner:/opt/ros/humble /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --install /home/roxy/2025_ros2/KanNon0618/build/can_packet
+[0.625s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(can_packet)
+[0.625s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/can_packet' for CMake module files
+[0.626s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/roxy/2025_ros2/KanNon0618/build/can_packet' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roxy/2025_ros2/KanNon0618/install/pid_tuner:/opt/ros/humble /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --install /home/roxy/2025_ros2/KanNon0618/build/can_packet
+[0.626s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/can_packet' for CMake config files
+[0.627s] Level 1:colcon.colcon_core.shell:create_environment_hook('can_packet', 'cmake_prefix_path')
+[0.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roxy/2025_ros2/KanNon0618/install/can_packet/share/can_packet/hook/cmake_prefix_path.ps1'
+[0.628s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roxy/2025_ros2/KanNon0618/install/can_packet/share/can_packet/hook/cmake_prefix_path.dsv'
+[0.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roxy/2025_ros2/KanNon0618/install/can_packet/share/can_packet/hook/cmake_prefix_path.sh'
+[0.629s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/can_packet/lib'
+[0.629s] Level 1:colcon.colcon_core.shell:create_environment_hook('can_packet', 'ld_library_path_lib')
+[0.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roxy/2025_ros2/KanNon0618/install/can_packet/share/can_packet/hook/ld_library_path_lib.ps1'
+[0.630s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roxy/2025_ros2/KanNon0618/install/can_packet/share/can_packet/hook/ld_library_path_lib.dsv'
+[0.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roxy/2025_ros2/KanNon0618/install/can_packet/share/can_packet/hook/ld_library_path_lib.sh'
+[0.630s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/can_packet/bin'
+[0.630s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/can_packet/lib/pkgconfig/can_packet.pc'
+[0.631s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/can_packet/lib/python3.10/site-packages'
+[0.631s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/can_packet/bin'
+[0.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/roxy/2025_ros2/KanNon0618/install/can_packet/share/can_packet/package.ps1'
+[0.632s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/roxy/2025_ros2/KanNon0618/install/can_packet/share/can_packet/package.dsv'
+[0.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/roxy/2025_ros2/KanNon0618/install/can_packet/share/can_packet/package.sh'
+[0.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/roxy/2025_ros2/KanNon0618/install/can_packet/share/can_packet/package.bash'
+[0.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/roxy/2025_ros2/KanNon0618/install/can_packet/share/can_packet/package.zsh'
+[0.633s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/roxy/2025_ros2/KanNon0618/install/can_packet/share/colcon-core/packages/can_packet)
+[0.634s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(can_packet)
+[0.634s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/can_packet' for CMake module files
+[0.635s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/can_packet' for CMake config files
+[0.635s] Level 1:colcon.colcon_core.shell:create_environment_hook('can_packet', 'cmake_prefix_path')
+[0.635s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roxy/2025_ros2/KanNon0618/install/can_packet/share/can_packet/hook/cmake_prefix_path.ps1'
+[0.636s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roxy/2025_ros2/KanNon0618/install/can_packet/share/can_packet/hook/cmake_prefix_path.dsv'
+[0.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roxy/2025_ros2/KanNon0618/install/can_packet/share/can_packet/hook/cmake_prefix_path.sh'
+[0.637s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/can_packet/lib'
+[0.637s] Level 1:colcon.colcon_core.shell:create_environment_hook('can_packet', 'ld_library_path_lib')
+[0.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roxy/2025_ros2/KanNon0618/install/can_packet/share/can_packet/hook/ld_library_path_lib.ps1'
+[0.637s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roxy/2025_ros2/KanNon0618/install/can_packet/share/can_packet/hook/ld_library_path_lib.dsv'
+[0.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roxy/2025_ros2/KanNon0618/install/can_packet/share/can_packet/hook/ld_library_path_lib.sh'
+[0.638s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/can_packet/bin'
+[0.638s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/can_packet/lib/pkgconfig/can_packet.pc'
+[0.638s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/can_packet/lib/python3.10/site-packages'
+[0.639s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/can_packet/bin'
+[0.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/roxy/2025_ros2/KanNon0618/install/can_packet/share/can_packet/package.ps1'
+[0.639s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/roxy/2025_ros2/KanNon0618/install/can_packet/share/can_packet/package.dsv'
+[0.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/roxy/2025_ros2/KanNon0618/install/can_packet/share/can_packet/package.sh'
+[0.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/roxy/2025_ros2/KanNon0618/install/can_packet/share/can_packet/package.bash'
+[0.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/roxy/2025_ros2/KanNon0618/install/can_packet/share/can_packet/package.zsh'
+[0.641s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/roxy/2025_ros2/KanNon0618/install/can_packet/share/colcon-core/packages/can_packet)
+[0.641s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/roxy/2025_ros2/KanNon0618/ver0/can_converter' with build type 'ament_cmake'
+[0.641s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/roxy/2025_ros2/KanNon0618/ver0/can_converter'
+[0.642s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.642s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.645s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/roxy/2025_ros2/KanNon0618/ver0/my_cpp_package' with build type 'ament_cmake'
+[0.645s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/roxy/2025_ros2/KanNon0618/ver0/my_cpp_package'
+[0.646s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.646s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.648s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/roxy/2025_ros2/KanNon0618/ver0/pid_tuner' with build type 'ament_python'
+[0.649s] Level 1:colcon.colcon_core.shell:create_environment_hook('pid_tuner', 'ament_prefix_path')
+[0.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roxy/2025_ros2/KanNon0618/install/pid_tuner/share/pid_tuner/hook/ament_prefix_path.ps1'
+[0.649s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roxy/2025_ros2/KanNon0618/install/pid_tuner/share/pid_tuner/hook/ament_prefix_path.dsv'
+[0.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roxy/2025_ros2/KanNon0618/install/pid_tuner/share/pid_tuner/hook/ament_prefix_path.sh'
+[0.650s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.650s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.659s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/roxy/2025_ros2/KanNon0618/build/can_converter': CMAKE_PREFIX_PATH=/home/roxy/2025_ros2/KanNon0618/install/can_packet:/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package:/home/roxy/2025_ros2/KanNon0618/install/launcher:/home/roxy/2025_ros2/KanNon0618/install/can_converter:/home/roxy/2025_ros2/KanNon0618/install/pid_tuner:/opt/ros/humble /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --build /home/roxy/2025_ros2/KanNon0618/build/can_converter -- -j16 -l16
+[0.663s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/roxy/2025_ros2/KanNon0618/build/my_cpp_package': CMAKE_PREFIX_PATH=/home/roxy/2025_ros2/KanNon0618/install/can_packet:/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package:/home/roxy/2025_ros2/KanNon0618/install/launcher:/home/roxy/2025_ros2/KanNon0618/install/can_converter:/home/roxy/2025_ros2/KanNon0618/install/pid_tuner:/opt/ros/humble /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --build /home/roxy/2025_ros2/KanNon0618/build/my_cpp_package -- -j16 -l16
+[1.074s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/roxy/2025_ros2/KanNon0618/ver0/pid_tuner'
+[1.074s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.075s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.080s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/roxy/2025_ros2/KanNon0618/build/my_cpp_package' returned '0': CMAKE_PREFIX_PATH=/home/roxy/2025_ros2/KanNon0618/install/can_packet:/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package:/home/roxy/2025_ros2/KanNon0618/install/launcher:/home/roxy/2025_ros2/KanNon0618/install/can_converter:/home/roxy/2025_ros2/KanNon0618/install/pid_tuner:/opt/ros/humble /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --build /home/roxy/2025_ros2/KanNon0618/build/my_cpp_package -- -j16 -l16
+[1.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/roxy/2025_ros2/KanNon0618/build/my_cpp_package': CMAKE_PREFIX_PATH=/home/roxy/2025_ros2/KanNon0618/install/can_packet:/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package:/home/roxy/2025_ros2/KanNon0618/install/launcher:/home/roxy/2025_ros2/KanNon0618/install/can_converter:/home/roxy/2025_ros2/KanNon0618/install/pid_tuner:/opt/ros/humble /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --install /home/roxy/2025_ros2/KanNon0618/build/my_cpp_package
+[1.088s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_cpp_package)
+[1.089s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package' for CMake module files
+[1.090s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/roxy/2025_ros2/KanNon0618/build/my_cpp_package' returned '0': CMAKE_PREFIX_PATH=/home/roxy/2025_ros2/KanNon0618/install/can_packet:/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package:/home/roxy/2025_ros2/KanNon0618/install/launcher:/home/roxy/2025_ros2/KanNon0618/install/can_converter:/home/roxy/2025_ros2/KanNon0618/install/pid_tuner:/opt/ros/humble /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --install /home/roxy/2025_ros2/KanNon0618/build/my_cpp_package
+[1.091s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package' for CMake config files
+[1.091s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_cpp_package', 'cmake_prefix_path')
+[1.092s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package/share/my_cpp_package/hook/cmake_prefix_path.ps1'
+[1.093s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package/share/my_cpp_package/hook/cmake_prefix_path.dsv'
+[1.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package/share/my_cpp_package/hook/cmake_prefix_path.sh'
+[1.097s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package/lib'
+[1.097s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package/bin'
+[1.097s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package/lib/pkgconfig/my_cpp_package.pc'
+[1.097s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package/lib/python3.10/site-packages'
+[1.098s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package/bin'
+[1.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package/share/my_cpp_package/package.ps1'
+[1.099s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package/share/my_cpp_package/package.dsv'
+[1.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package/share/my_cpp_package/package.sh'
+[1.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package/share/my_cpp_package/package.bash'
+[1.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package/share/my_cpp_package/package.zsh'
+[1.102s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package/share/colcon-core/packages/my_cpp_package)
+[1.103s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_cpp_package)
+[1.103s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package' for CMake module files
+[1.104s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package' for CMake config files
+[1.105s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_cpp_package', 'cmake_prefix_path')
+[1.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package/share/my_cpp_package/hook/cmake_prefix_path.ps1'
+[1.107s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package/share/my_cpp_package/hook/cmake_prefix_path.dsv'
+[1.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package/share/my_cpp_package/hook/cmake_prefix_path.sh'
+[1.109s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package/lib'
+[1.109s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package/bin'
+[1.109s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package/lib/pkgconfig/my_cpp_package.pc'
+[1.110s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package/lib/python3.10/site-packages'
+[1.110s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package/bin'
+[1.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package/share/my_cpp_package/package.ps1'
+[1.113s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package/share/my_cpp_package/package.dsv'
+[1.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package/share/my_cpp_package/package.sh'
+[1.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package/share/my_cpp_package/package.bash'
+[1.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package/share/my_cpp_package/package.zsh'
+[1.118s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package/share/colcon-core/packages/my_cpp_package)
+[1.513s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/roxy/2025_ros2/KanNon0618/ver0/pid_tuner': CMAKE_PREFIX_PATH=/home/roxy/2025_ros2/KanNon0618/install/can_packet:/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package:/home/roxy/2025_ros2/KanNon0618/install/launcher:/home/roxy/2025_ros2/KanNon0618/install/can_converter PYTHONPATH=/home/roxy/2025_ros2/KanNon0618/build/pid_tuner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roxy/2025_ros2/KanNon0618/install/pid_tuner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pid_tuner build --build-base /home/roxy/2025_ros2/KanNon0618/build/pid_tuner/build install --record /home/roxy/2025_ros2/KanNon0618/build/pid_tuner/install.log --single-version-externally-managed install_data
+[1.837s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/pid_tuner' for CMake module files
+[1.839s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/roxy/2025_ros2/KanNon0618/ver0/pid_tuner' returned '0': CMAKE_PREFIX_PATH=/home/roxy/2025_ros2/KanNon0618/install/can_packet:/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package:/home/roxy/2025_ros2/KanNon0618/install/launcher:/home/roxy/2025_ros2/KanNon0618/install/can_converter PYTHONPATH=/home/roxy/2025_ros2/KanNon0618/build/pid_tuner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roxy/2025_ros2/KanNon0618/install/pid_tuner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pid_tuner build --build-base /home/roxy/2025_ros2/KanNon0618/build/pid_tuner/build install --record /home/roxy/2025_ros2/KanNon0618/build/pid_tuner/install.log --single-version-externally-managed install_data
+[1.839s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/pid_tuner' for CMake config files
+[1.840s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/pid_tuner/lib'
+[1.840s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/pid_tuner/bin'
+[1.840s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/pid_tuner/lib/pkgconfig/pid_tuner.pc'
+[1.841s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/pid_tuner/lib/python3.10/site-packages'
+[1.841s] Level 1:colcon.colcon_core.shell:create_environment_hook('pid_tuner', 'pythonpath')
+[1.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roxy/2025_ros2/KanNon0618/install/pid_tuner/share/pid_tuner/hook/pythonpath.ps1'
+[1.842s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roxy/2025_ros2/KanNon0618/install/pid_tuner/share/pid_tuner/hook/pythonpath.dsv'
+[1.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roxy/2025_ros2/KanNon0618/install/pid_tuner/share/pid_tuner/hook/pythonpath.sh'
+[1.843s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/pid_tuner/bin'
+[1.843s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pid_tuner)
+[1.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/roxy/2025_ros2/KanNon0618/install/pid_tuner/share/pid_tuner/package.ps1'
+[1.845s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/roxy/2025_ros2/KanNon0618/install/pid_tuner/share/pid_tuner/package.dsv'
+[1.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/roxy/2025_ros2/KanNon0618/install/pid_tuner/share/pid_tuner/package.sh'
+[1.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/roxy/2025_ros2/KanNon0618/install/pid_tuner/share/pid_tuner/package.bash'
+[1.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/roxy/2025_ros2/KanNon0618/install/pid_tuner/share/pid_tuner/package.zsh'
+[1.847s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/roxy/2025_ros2/KanNon0618/install/pid_tuner/share/colcon-core/packages/pid_tuner)
+[12.160s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/roxy/2025_ros2/KanNon0618/build/can_converter' returned '0': CMAKE_PREFIX_PATH=/home/roxy/2025_ros2/KanNon0618/install/can_packet:/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package:/home/roxy/2025_ros2/KanNon0618/install/launcher:/home/roxy/2025_ros2/KanNon0618/install/can_converter:/home/roxy/2025_ros2/KanNon0618/install/pid_tuner:/opt/ros/humble /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --build /home/roxy/2025_ros2/KanNon0618/build/can_converter -- -j16 -l16
+[12.162s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/roxy/2025_ros2/KanNon0618/build/can_converter': CMAKE_PREFIX_PATH=/home/roxy/2025_ros2/KanNon0618/install/can_packet:/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package:/home/roxy/2025_ros2/KanNon0618/install/launcher:/home/roxy/2025_ros2/KanNon0618/install/can_converter:/home/roxy/2025_ros2/KanNon0618/install/pid_tuner:/opt/ros/humble /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --install /home/roxy/2025_ros2/KanNon0618/build/can_converter
+[12.170s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(can_converter)
+[12.170s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/can_converter' for CMake module files
+[12.171s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/roxy/2025_ros2/KanNon0618/build/can_converter' returned '0': CMAKE_PREFIX_PATH=/home/roxy/2025_ros2/KanNon0618/install/can_packet:/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package:/home/roxy/2025_ros2/KanNon0618/install/launcher:/home/roxy/2025_ros2/KanNon0618/install/can_converter:/home/roxy/2025_ros2/KanNon0618/install/pid_tuner:/opt/ros/humble /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --install /home/roxy/2025_ros2/KanNon0618/build/can_converter
+[12.172s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/can_converter' for CMake config files
+[12.172s] Level 1:colcon.colcon_core.shell:create_environment_hook('can_converter', 'cmake_prefix_path')
+[12.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roxy/2025_ros2/KanNon0618/install/can_converter/share/can_converter/hook/cmake_prefix_path.ps1'
+[12.172s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roxy/2025_ros2/KanNon0618/install/can_converter/share/can_converter/hook/cmake_prefix_path.dsv'
+[12.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roxy/2025_ros2/KanNon0618/install/can_converter/share/can_converter/hook/cmake_prefix_path.sh'
+[12.173s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/can_converter/lib'
+[12.173s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/can_converter/bin'
+[12.173s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/can_converter/lib/pkgconfig/can_converter.pc'
+[12.174s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/can_converter/lib/python3.10/site-packages'
+[12.174s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/can_converter/bin'
+[12.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/roxy/2025_ros2/KanNon0618/install/can_converter/share/can_converter/package.ps1'
+[12.175s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/roxy/2025_ros2/KanNon0618/install/can_converter/share/can_converter/package.dsv'
+[12.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/roxy/2025_ros2/KanNon0618/install/can_converter/share/can_converter/package.sh'
+[12.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/roxy/2025_ros2/KanNon0618/install/can_converter/share/can_converter/package.bash'
+[12.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/roxy/2025_ros2/KanNon0618/install/can_converter/share/can_converter/package.zsh'
+[12.176s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/roxy/2025_ros2/KanNon0618/install/can_converter/share/colcon-core/packages/can_converter)
+[12.177s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(can_converter)
+[12.177s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/can_converter' for CMake module files
+[12.177s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/can_converter' for CMake config files
+[12.177s] Level 1:colcon.colcon_core.shell:create_environment_hook('can_converter', 'cmake_prefix_path')
+[12.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roxy/2025_ros2/KanNon0618/install/can_converter/share/can_converter/hook/cmake_prefix_path.ps1'
+[12.178s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roxy/2025_ros2/KanNon0618/install/can_converter/share/can_converter/hook/cmake_prefix_path.dsv'
+[12.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roxy/2025_ros2/KanNon0618/install/can_converter/share/can_converter/hook/cmake_prefix_path.sh'
+[12.179s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/can_converter/lib'
+[12.179s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/can_converter/bin'
+[12.179s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/can_converter/lib/pkgconfig/can_converter.pc'
+[12.179s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/can_converter/lib/python3.10/site-packages'
+[12.179s] Level 1:colcon.colcon_core.environment:checking '/home/roxy/2025_ros2/KanNon0618/install/can_converter/bin'
+[12.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/roxy/2025_ros2/KanNon0618/install/can_converter/share/can_converter/package.ps1'
+[12.180s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/roxy/2025_ros2/KanNon0618/install/can_converter/share/can_converter/package.dsv'
+[12.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/roxy/2025_ros2/KanNon0618/install/can_converter/share/can_converter/package.sh'
+[12.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/roxy/2025_ros2/KanNon0618/install/can_converter/share/can_converter/package.bash'
+[12.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/roxy/2025_ros2/KanNon0618/install/can_converter/share/can_converter/package.zsh'
+[12.181s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/roxy/2025_ros2/KanNon0618/install/can_converter/share/colcon-core/packages/can_converter)
+[12.181s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.182s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.182s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.182s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.186s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.186s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.186s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.195s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.196s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/roxy/2025_ros2/KanNon0618/install/local_setup.ps1'
+[12.197s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/roxy/2025_ros2/KanNon0618/install/_local_setup_util_ps1.py'
+[12.198s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/roxy/2025_ros2/KanNon0618/install/setup.ps1'
+[12.199s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/roxy/2025_ros2/KanNon0618/install/local_setup.sh'
+[12.199s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/roxy/2025_ros2/KanNon0618/install/_local_setup_util_sh.py'
+[12.199s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/roxy/2025_ros2/KanNon0618/install/setup.sh'
+[12.200s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/roxy/2025_ros2/KanNon0618/install/local_setup.bash'
+[12.201s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/roxy/2025_ros2/KanNon0618/install/setup.bash'
+[12.202s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/roxy/2025_ros2/KanNon0618/install/local_setup.zsh'
+[12.202s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/roxy/2025_ros2/KanNon0618/install/setup.zsh'

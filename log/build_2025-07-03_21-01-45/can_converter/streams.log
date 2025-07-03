@@ -1,0 +1,64 @@
+[0.011s] Invoking command in '/home/roxy/2025_ros2/KanNon0618/build/can_converter': CMAKE_PREFIX_PATH=/home/roxy/2025_ros2/KanNon0618/install/can_packet:/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package:/home/roxy/2025_ros2/KanNon0618/install/launcher:/home/roxy/2025_ros2/KanNon0618/install/can_converter:/home/roxy/2025_ros2/KanNon0618/install/pid_tuner:/opt/ros/humble /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --build /home/roxy/2025_ros2/KanNon0618/build/can_converter -- -j16 -l16
+[0.029s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.267s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.309s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.315s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.323s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.337s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.353s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.400s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.403s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.512s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.592s] -- Found can_packet: 0.0.0 (/home/roxy/2025_ros2/KanNon0618/install/can_packet/share/can_packet/cmake)
+[0.642s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.724s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.724s] -- Configured cppcheck include dirs: /home/roxy/2025_ros2/KanNon0618/ver0/can_converter/include
+[0.725s] -- Configured cppcheck exclude dirs and/or files: 
+[0.725s] -- Added test 'lint_cmake' to check CMake code style
+[0.727s] -- Added test 'uncrustify' to check C / C++ code style
+[0.727s] -- Configured uncrustify additional arguments: 
+[0.727s] -- Added test 'xmllint' to check XML markup files
+[0.730s] -- Configuring done (0.7s)
+[0.764s] -- Generating done (0.0s)
+[0.772s] -- Build files have been written to: /home/roxy/2025_ros2/KanNon0618/build/can_converter
+[0.793s] [ 10%] [32mBuilding CXX object CMakeFiles/ros2_usb_node.dir/src/usb_pub_sub.cpp.o[0m
+[0.800s] [ 30%] Built target sub_to_can_node
+[0.800s] [ 50%] Built target can_to_pub_node
+[0.811s] [ 70%] Built target usb_to_pub_node
+[0.814s] [ 90%] Built target sub_to_usb_node
+[3.217s] [01m[K/home/roxy/2025_ros2/KanNon0618/ver0/can_converter/src/usb_pub_sub.cpp:152:16:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K([m[K’ token
+[3.218s]   152 |     ~sub_to_usb[01;31m[K([m[K) {
+[3.218s]       |                [01;31m[K^[m[K
+[3.220s] [01m[K/home/roxy/2025_ros2/KanNon0618/ver0/can_converter/src/usb_pub_sub.cpp:[m[K In lambda function:
+[3.220s] [01m[K/home/roxy/2025_ros2/KanNon0618/ver0/can_converter/src/usb_pub_sub.cpp:38:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klength[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.220s]    38 |             [](const boost::system::error_code &ec, [01;35m[Kstd::size_t length[m[K) {
+[3.220s]       |                                                     [01;35m[K~~~~~~~~~~~~^~~~~~[m[K
+[3.222s] [01m[K/home/roxy/2025_ros2/KanNon0618/ver0/can_converter/src/usb_pub_sub.cpp:[m[K In member function ‘[01m[Kvoid ros2_usb::start_read()[m[K’:
+[3.222s] [01m[K/home/roxy/2025_ros2/KanNon0618/ver0/can_converter/src/usb_pub_sub.cpp:53:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kusb_to_pub[m[K’ has not been declared
+[3.222s]    53 |             std::bind(&[01;31m[Kusb_to_pub[m[K::handle_read, this, std::placeholders::_1, std::placeholders::_2));
+[3.222s]       |                        [01;31m[K^~~~~~~~~~[m[K
+[3.227s] [01m[K/home/roxy/2025_ros2/KanNon0618/ver0/can_converter/src/usb_pub_sub.cpp:[m[K In constructor ‘[01m[Kros2_usb::ros2_usb(const string&)[m[K’:
+[3.227s] [01m[K/home/roxy/2025_ros2/KanNon0618/ver0/can_converter/src/usb_pub_sub.cpp:118:36:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_to_usb[m[K’ has not been declared
+[3.227s]   118 |                         std::bind(&[01;31m[Ksub_to_usb[m[K::sub_callback, this, std::placeholders::_1)
+[3.227s]       |                                    [01;31m[K^~~~~~~~~~[m[K
+[3.236s] [01m[K/home/roxy/2025_ros2/KanNon0618/ver0/can_converter/src/usb_pub_sub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[3.236s] [01m[K/home/roxy/2025_ros2/KanNon0618/ver0/can_converter/src/usb_pub_sub.cpp:171:34:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_to_usb[m[K’ was not declared in this scope
+[3.236s]   171 |     auto node = std::make_shared<[01;31m[Ksub_to_usb[m[K>("/dev/ttyACM0");
+[3.236s]       |                                  [01;31m[K^~~~~~~~~~[m[K
+[3.236s] [01m[K/home/roxy/2025_ros2/KanNon0618/ver0/can_converter/src/usb_pub_sub.cpp:171:45:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >(const char [13])[m[K’
+[3.236s]   171 |     auto node = [01;31m[Kstd::make_shared<sub_to_usb>("/dev/ttyACM0")[m[K;
+[3.236s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[3.236s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.236s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[3.236s]                  from [01m[K/home/roxy/2025_ros2/KanNon0618/ver0/can_converter/src/usb_pub_sub.cpp:1[m[K:
+[3.236s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[3.236s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[3.236s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[3.236s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.236s] [01m[K/home/roxy/2025_ros2/KanNon0618/ver0/can_converter/src/usb_pub_sub.cpp:171:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.236s]   171 |     auto node = [01;31m[Kstd::make_shared<sub_to_usb>("/dev/ttyACM0")[m[K;
+[3.236s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[4.190s] gmake[2]: *** [CMakeFiles/ros2_usb_node.dir/build.make:76: CMakeFiles/ros2_usb_node.dir/src/usb_pub_sub.cpp.o] Error 1
+[4.190s] gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/ros2_usb_node.dir/all] Error 2
+[4.190s] gmake: *** [Makefile:146: all] Error 2
+[4.192s] Invoked command in '/home/roxy/2025_ros2/KanNon0618/build/can_converter' returned '2': CMAKE_PREFIX_PATH=/home/roxy/2025_ros2/KanNon0618/install/can_packet:/home/roxy/2025_ros2/KanNon0618/install/my_cpp_package:/home/roxy/2025_ros2/KanNon0618/install/launcher:/home/roxy/2025_ros2/KanNon0618/install/can_converter:/home/roxy/2025_ros2/KanNon0618/install/pid_tuner:/opt/ros/humble /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --build /home/roxy/2025_ros2/KanNon0618/build/can_converter -- -j16 -l16

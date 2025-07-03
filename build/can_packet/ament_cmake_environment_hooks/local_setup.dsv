@@ -1,0 +1,4 @@
+source;share/can_packet/environment/ament_prefix_path.sh
+source;share/can_packet/environment/library_path.sh
+source;share/can_packet/environment/path.sh
+source;share/can_packet/environment/pythonpath.sh

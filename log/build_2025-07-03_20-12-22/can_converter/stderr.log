@@ -1,0 +1,27 @@
+[01m[K/home/roxy/2025_ros2/KanNon0618/ver0/can_converter/src/sub_to_usb.cpp:[m[K In lambda function:
+[01m[K/home/roxy/2025_ros2/KanNon0618/ver0/can_converter/src/sub_to_usb.cpp:31:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klength[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   31 |             [](const boost::system::error_code &ec, [01;35m[Kstd::size_t length[m[K) {
+      |                                                     [01;35m[K~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/roxy/2025_ros2/KanNon0618/ver0/can_converter/src/sub_to_usb.cpp:[m[K In lambda function:
+[01m[K/home/roxy/2025_ros2/KanNon0618/ver0/can_converter/src/sub_to_usb.cpp:79:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klength[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   79 |             [](const boost::system::error_code &ec, [01;35m[Kstd::size_t length[m[K) {
+      |                                                     [01;35m[K~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/roxy/2025_ros2/KanNon0618/ver0/can_converter/src/sub_to_usb.cpp:1[m[K:
+[01m[K/home/roxy/2025_ros2/KanNon0618/ver0/can_converter/src/sub_to_usb.cpp:[m[K In constructor ‘[01m[Ksub_to_usb::sub_to_usb(const string&)[m[K’:
+[01m[K/home/roxy/2025_ros2/KanNon0618/ver0/can_converter/src/sub_to_usb.cpp:86:71:[m[K [01;31m[Kerror: [m[K‘[01m[Krx_packet[m[K’ was not declared in this scope; did you mean ‘[01m[Krxpacket[m[K’?
+   86 |                 RCLCPP_INFO(this -> get_logger(), "usb send id : %x", [01;31m[Krx_packet[m[K -> id);
+      |                                                                       [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/sub_to_usb_node.dir/build.make:76: CMakeFiles/sub_to_usb_node.dir/src/sub_to_usb.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/sub_to_usb_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

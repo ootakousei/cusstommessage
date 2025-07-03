@@ -1,0 +1,8 @@
+setup.py
+can_packet/__init__.py
+can_packet.egg-info/PKG-INFO
+can_packet.egg-info/SOURCES.txt
+can_packet.egg-info/dependency_links.txt
+can_packet.egg-info/top_level.txt
+can_packet/msg/__init__.py
+can_packet/msg/_can_packet.py

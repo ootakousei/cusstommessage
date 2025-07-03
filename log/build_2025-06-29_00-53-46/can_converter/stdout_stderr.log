@@ -1,0 +1,54 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found can_packet: 0.0.0 (/home/roxy/2025_ros2/KanNon0618/install/can_packet/share/can_packet/cmake)
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/roxy/2025_ros2/KanNon0618/ver0/can_converter/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/roxy/2025_ros2/KanNon0618/build/can_converter
+[ 16%] [32mBuilding CXX object CMakeFiles/sub_to_usb_node.dir/src/sub_to_usb.cpp.o[0m
+[ 50%] Built target sub_to_can_node
+[ 83%] Built target can_to_pub_node
+[01m[K/home/roxy/2025_ros2/KanNon0618/ver0/can_converter/src/sub_to_usb.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/roxy/2025_ros2/KanNon0618/ver0/can_converter/src/sub_to_usb.cpp:10:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   10 | int main([01;35m[Kint argc[m[K, char * argv[])
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/roxy/2025_ros2/KanNon0618/ver0/can_converter/src/sub_to_usb.cpp:10:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   10 | int main(int argc, [01;35m[Kchar * argv[][m[K)
+      |                    [01;35m[K~~~~~~~^~~~~~[m[K
+[100%] [32m[1mLinking CXX executable sub_to_usb_node[0m
+[100%] Built target sub_to_usb_node
+-- Install configuration: ""
+-- Up-to-date: /home/roxy/2025_ros2/KanNon0618/install/can_converter/lib/can_converter/sub_to_can_node
+-- Up-to-date: /home/roxy/2025_ros2/KanNon0618/install/can_converter/lib/can_converter/can_to_pub_node
+-- Installing: /home/roxy/2025_ros2/KanNon0618/install/can_converter/lib/can_converter/sub_to_usb_node
+-- Set non-toolchain portion of runtime path of "/home/roxy/2025_ros2/KanNon0618/install/can_converter/lib/can_converter/sub_to_usb_node" to ""
+-- Up-to-date: /home/roxy/2025_ros2/KanNon0618/install/can_converter/share/ament_index/resource_index/package_run_dependencies/can_converter
+-- Up-to-date: /home/roxy/2025_ros2/KanNon0618/install/can_converter/share/ament_index/resource_index/parent_prefix_path/can_converter
+-- Up-to-date: /home/roxy/2025_ros2/KanNon0618/install/can_converter/share/can_converter/environment/ament_prefix_path.sh
+-- Installing: /home/roxy/2025_ros2/KanNon0618/install/can_converter/share/can_converter/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/roxy/2025_ros2/KanNon0618/install/can_converter/share/can_converter/environment/path.sh
+-- Installing: /home/roxy/2025_ros2/KanNon0618/install/can_converter/share/can_converter/environment/path.dsv
+-- Up-to-date: /home/roxy/2025_ros2/KanNon0618/install/can_converter/share/can_converter/local_setup.bash
+-- Up-to-date: /home/roxy/2025_ros2/KanNon0618/install/can_converter/share/can_converter/local_setup.sh
+-- Up-to-date: /home/roxy/2025_ros2/KanNon0618/install/can_converter/share/can_converter/local_setup.zsh
+-- Installing: /home/roxy/2025_ros2/KanNon0618/install/can_converter/share/can_converter/local_setup.dsv
+-- Installing: /home/roxy/2025_ros2/KanNon0618/install/can_converter/share/can_converter/package.dsv
+-- Up-to-date: /home/roxy/2025_ros2/KanNon0618/install/can_converter/share/ament_index/resource_index/packages/can_converter
+-- Up-to-date: /home/roxy/2025_ros2/KanNon0618/install/can_converter/share/can_converter/cmake/can_converterConfig.cmake
+-- Up-to-date: /home/roxy/2025_ros2/KanNon0618/install/can_converter/share/can_converter/cmake/can_converterConfig-version.cmake
+-- Up-to-date: /home/roxy/2025_ros2/KanNon0618/install/can_converter/share/can_converter/package.xml

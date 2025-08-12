@@ -1,6 +1,0 @@
-{
-  "package_name": "can_packet",
-  "non_idl_tuples": [
-    "/home/roxy/2025_ros2/KanNon0618/ver0/can_packet:msg/CanPacket.msg"
-  ]
-}

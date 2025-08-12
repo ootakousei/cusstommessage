@@ -1,9 +1,0 @@
-/home/roxy/2025_ros2/KanNon0618/build/launcher/CMakeFiles/uninstall.dir
-/home/roxy/2025_ros2/KanNon0618/build/launcher/CMakeFiles/launcher_uninstall.dir
-/home/roxy/2025_ros2/KanNon0618/build/launcher/CMakeFiles/test.dir
-/home/roxy/2025_ros2/KanNon0618/build/launcher/CMakeFiles/edit_cache.dir
-/home/roxy/2025_ros2/KanNon0618/build/launcher/CMakeFiles/rebuild_cache.dir
-/home/roxy/2025_ros2/KanNon0618/build/launcher/CMakeFiles/list_install_components.dir
-/home/roxy/2025_ros2/KanNon0618/build/launcher/CMakeFiles/install.dir
-/home/roxy/2025_ros2/KanNon0618/build/launcher/CMakeFiles/install/local.dir
-/home/roxy/2025_ros2/KanNon0618/build/launcher/CMakeFiles/install/strip.dir

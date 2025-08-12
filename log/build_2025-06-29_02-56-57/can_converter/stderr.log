@@ -1,4 +1,0 @@
-[01m[K/home/roxy/2025_ros2/KanNon0618/ver0/can_converter/src/sub_to_usb.cpp:[m[K In lambda function:
-[01m[K/home/roxy/2025_ros2/KanNon0618/ver0/can_converter/src/sub_to_usb.cpp:31:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klength[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
-   31 |             [](const boost::system::error_code &ec, [01;35m[Kstd::size_t length[m[K) {
-      |                                                     [01;35m[K~~~~~~~~~~~~^~~~~~[m[K

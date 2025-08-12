@@ -1,4 +1,0 @@
-Invoking command in '/home/roxy/2025_ros2/KanNon0618/build/can_packet': CMAKE_PREFIX_PATH=/opt/ros/humble /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --build /home/roxy/2025_ros2/KanNon0618/build/can_packet -- -j16 -l16
-Invoked command in '/home/roxy/2025_ros2/KanNon0618/build/can_packet' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --build /home/roxy/2025_ros2/KanNon0618/build/can_packet -- -j16 -l16
-Invoking command in '/home/roxy/2025_ros2/KanNon0618/build/can_packet': CMAKE_PREFIX_PATH=/opt/ros/humble /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --install /home/roxy/2025_ros2/KanNon0618/build/can_packet
-Invoked command in '/home/roxy/2025_ros2/KanNon0618/build/can_packet' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /opt/st/stm32cubeclt_1.17.0/CMake/bin/cmake --install /home/roxy/2025_ros2/KanNon0618/build/can_packet

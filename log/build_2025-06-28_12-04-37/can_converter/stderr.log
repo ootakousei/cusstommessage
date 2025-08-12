@@ -1,4 +1,0 @@
-[01m[K/home/roxy/2025_ros2/KanNon0618/ver0/can_converter/src/sub_to_can.cpp:[m[K In constructor ‘[01m[Ksub_to_can::sub_to_can(const char*, uint16_t)[m[K’:
-[01m[K/home/roxy/2025_ros2/KanNon0618/ver0/can_converter/src/sub_to_can.cpp:70:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kerr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
-   70 |                 ssize_t [01;35m[Kerr[m[K = sendto(sock, tx_data, 68, 0, reinterpret_cast<sockaddr*>(&stm_addr), sizeof(stm_addr));
-      |                         [01;35m[K^~~[m[K

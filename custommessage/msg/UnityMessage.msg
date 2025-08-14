@@ -23,8 +23,8 @@ bool r200
 bool zero
 bool pai
 bool pai_2
-bool lz
-bool rz
+float32 lz
+float32 rz
 bool pata
 bool kadou
 bool gatti

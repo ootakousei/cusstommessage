@@ -34,3 +34,4 @@ bool gate
 bool sagyou
 bool kyouyuu
 bool senyuu
+bool sandflag
